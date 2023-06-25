@@ -33,7 +33,7 @@ function App() {
 
      <Header/>
      <Coin/>
-    <Homepage/> 
+   <Homepage/>
 
     
    
