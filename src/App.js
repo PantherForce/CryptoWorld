@@ -4,12 +4,24 @@ import './App.css';
 import Header from './components/Header'
 import Coin from './components/Coin'
 import Homepage from './components/Homepage';
+import { makeStyles } from '@material-ui/core';
+
+
+const useStyles = makeStyles(()=>({
+     
+  App : {
+
+  },
+
+}));
+
+const Classes = useStyles ; 
 
 
 function App() {
   return (
 
-    <div className="App">
+    <div className=" Classes.App">
 
      <Header/>
      <Coin/>
