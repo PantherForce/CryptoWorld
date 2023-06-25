@@ -9,31 +9,34 @@ import { makeStyles } from '@material-ui/core';
 
 const useStyles = makeStyles(()=>({
      
-  App : {
+  App : { 
+    
+    backgroundColor : "black" ,
+    color : "white" , 
+    minHeight : '100vh ' , 
+    Width : '100%'
 
   },
 
 }));
 
-const Classes = useStyles ; 
+
 
 
 function App() {
+  const Classes = useStyles() ; 
+ 
+
   return (
 
-    <div className=" Classes.App">
+    <div className={Classes.App}>
 
      <Header/>
      <Coin/>
     <Homepage/> 
 
-     <BrowserRouter>
-     {/* <Route path='./Coin:id' Component={Coin}/>
-     <Route path='' Component={Homepage}/> */}
-
-
-     
-     </BrowserRouter>
+    
+   
 
     </div>
     
