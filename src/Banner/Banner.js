@@ -1,5 +1,6 @@
 import { Container, Typography, makeStyles } from '@material-ui/core'
 import React from 'react'
+import Carousel from './Carousel';
 
 const useStyles = makeStyles(()=>({
 
@@ -26,13 +27,10 @@ const useStyles = makeStyles(()=>({
         alignItems : 'center',
         flexDirection : 'column '
 
-
-
      },
     
 
 }));
-
 
 const  Banner =() => {
   
@@ -63,10 +61,13 @@ const  Banner =() => {
 
             </div>
             
+            <Carousel/>
+            
         </Container>
 
 
     </div>
+   
   )
 }
 
