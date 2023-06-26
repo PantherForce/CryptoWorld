@@ -5,10 +5,7 @@ const useStyles = makeStyles (()=>({
       
     Carousel: {
 
-        height : '50 %' ,
-        display : flex , 
-        alignItems : 'center' , 
-
+       
 
     }
 
@@ -19,7 +16,6 @@ const classes = useStyles ();
 const Carousel = () =>{
     return (
         <div className={classes.Carousel}>
-
 
         </div>
     )
